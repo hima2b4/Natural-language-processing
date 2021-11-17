@@ -1,5 +1,5 @@
 # Natural-language-processing
-## nlplot+word_cloud+TF-IDF
+## nlplot+word_cloud+TF-IDF+word2vec
 Word Cloud、nlplot（頻出ワードグラフや共起ネットワーク等の可視化や分析）、TF-IDF計算を実行します。
 分析したい文書をテキストファイルに貼って読み込ませ、「ランタイム→すべてのセルを実行」するだけです。
 前処理（改行, 空白等の処理）→形態素分析→各種視覚化は自動で行います。
