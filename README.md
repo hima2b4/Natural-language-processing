@@ -42,8 +42,8 @@ SF（SimilarityFilter｜類似性フィルター）：文章内にある文字�
 
 ## pysummarization‗English‗string
 pysummarizationは、自然言語処理とニューラルネットワーク言語モデルを用いたPythonのテキスト自動要約ライブラリ。
-テキストクラスタリングによって元の文書やウェブスクレイピングされたテキストの主要なポイントをまとめた要約が作成できる。Accel-brain-baseを用いて、LSTMをベースとしたEncoder/Decoderを実装し、Sequence-to-Sequence（Seq2Seq）学習により要約精度を向上させているようだ。¥
-これは **英文要約専用** です。¥
+テキストクラスタリングによって元の文書やウェブスクレイピングされたテキストの主要なポイントをまとめた要約が作成できる。Accel-brain-baseを用いて、LSTMをベースとしたEncoder/Decoderを実装し、Sequence-to-Sequence（Seq2Seq）学習により要約精度を向上させているようだ。\
+これは **英文要約専用** です。\
 「ランタイム→すべてのセルを実行」し、ライブラリが読み込まれた後、表示される[ファイル選択] ボタンをクリックし、要約したいテキストファイル（.txt）指定するだけです。
 要約後、result_summary.txt と result_summary.docx を生成します。DeepL翻訳 はdocxデータをドラックするだけで翻訳できます。
 要約結果に「原文書」「要約文書」「要約文書:SF」が表示されます。
