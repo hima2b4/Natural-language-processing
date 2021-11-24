@@ -6,7 +6,7 @@ Word Cloud、nlplot（頻出ワードグラフや共起ネットワーク等の�
 前処理（改行, 空白等の処理）→形態素分析→各種視覚化は自動で行います。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/nlplot%2Bword_cloud%2BTF-IDF%2Bword2vec.ipynb)
-：クリックでGoogle Colab起動します。
+：クリックでGoogle Colab起動します。\
 \
 ## word2vec
 Word2Vecは、当時Googleに在籍していた研究者であるトマス・ミコロフ氏らが考案。2層のニューラルネットワークのみで構成されるシンプルな構造により、大規模データによる分散表現学習が現実的な計算量で可能となり、分散表現での自然言語処理が飛躍的に進む等、自然言語処理に大きな技術的進展をもたらしたツール。
@@ -18,7 +18,7 @@ Word2Vecは、当時Googleに在籍していた研究者であるトマス・ミ
 類似語、加算、減算、加減算等、文字を書き換え、セルを実行してください。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/word2vec.ipynb)
-：クリックでGoogle Colab起動します。
+：クリックでGoogle Colab起動します。\
 \
 ## fastText
 fastTextは2016年にFacebookが公開した自然言語処理ライブラリ。単語をベクトル化することによって単語間の距離を計算し、コンピューター上での言葉の処理を可能にしたWord2Vec（Googleが開発）というライブラリがベース。100～300次元のベクトル生成が高速化され、さらにはテキストの分類も高速で行える特徴がある。
@@ -30,7 +30,7 @@ fastTextは2016年にFacebookが公開した自然言語処理ライブラリ。
 類似語、加算、減算、加減算等、文字を書き換え、セルを実行してください。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/fastText.ipynb)
-：クリックでGoogle Colab起動します。
+：クリックでGoogle Colab起動します。\
 \
 ## pysummerization
 pysummarizationは、自然言語処理とニューラルネットワーク言語モデルを用いたPythonのテキスト自動要約ライブラリ。
@@ -42,7 +42,7 @@ SF（SimilarityFilter｜類似性フィルター）：文章内にある文字�
 **[注意]** テキストファイルは文字コードを「UTF-8」としてください。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/pysummarization.ipynb)
-：クリックでGoogle Colab起動します。
+：クリックでGoogle Colab起動します。\
 \
 ## pysummarization‗English‗string
 pysummarizationは、自然言語処理とニューラルネットワーク言語モデルを用いたPythonのテキスト自動要約ライブラリ。
