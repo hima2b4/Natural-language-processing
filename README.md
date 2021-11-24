@@ -8,7 +8,6 @@ Word Cloud、nlplot（頻出ワードグラフや共起ネットワーク等の�
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/nlplot%2Bword_cloud%2BTF-IDF%2Bword2vec.ipynb)
 ：クリックでGoogle Colab起動します。
 \
-\
 ## word2vec
 Word2Vecは、当時Googleに在籍していた研究者であるトマス・ミコロフ氏らが考案。2層のニューラルネットワークのみで構成されるシンプルな構造により、大規模データによる分散表現学習が現実的な計算量で可能となり、分散表現での自然言語処理が飛躍的に進む等、自然言語処理に大きな技術的進展をもたらしたツール。
 ***
@@ -20,7 +19,6 @@ Word2Vecは、当時Googleに在籍していた研究者であるトマス・ミ
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/word2vec.ipynb)
 ：クリックでGoogle Colab起動します。
-\
 \
 ## fastText
 fastTextは2016年にFacebookが公開した自然言語処理ライブラリ。単語をベクトル化することによって単語間の距離を計算し、コンピューター上での言葉の処理を可能にしたWord2Vec（Googleが開発）というライブラリがベース。100～300次元のベクトル生成が高速化され、さらにはテキストの分類も高速で行える特徴がある。
@@ -34,7 +32,6 @@ fastTextは2016年にFacebookが公開した自然言語処理ライブラリ。
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/fastText.ipynb)
 ：クリックでGoogle Colab起動します。
 \
-\
 ## pysummerization
 pysummarizationは、自然言語処理とニューラルネットワーク言語モデルを用いたPythonのテキスト自動要約ライブラリ。
 テキストクラスタリングによって元の文書やウェブスクレイピングされたテキストの主要なポイントをまとめた要約が作成できる。Accel-brain-baseを用いて、LSTMをベースとしたEncoder/Decoderを実装し、Sequence-to-Sequence（Seq2Seq）学習により要約精度を向上させているようだ。
@@ -46,7 +43,6 @@ SF（SimilarityFilter｜類似性フィルター）：文章内にある文字�
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/pysummarization.ipynb)
 ：クリックでGoogle Colab起動します。
-\
 \
 ## pysummarization‗English‗string
 pysummarizationは、自然言語処理とニューラルネットワーク言語モデルを用いたPythonのテキスト自動要約ライブラリ。
