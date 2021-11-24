@@ -8,9 +8,13 @@ Word Cloud、nlplot（頻出ワードグラフや共起ネットワーク等の�
 ：クリックでGoogle Colab起動します。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/word2vec.ipynb)
+：クリックでGoogle Colab起動します。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/fastText.ipynb)
+：クリックでGoogle Colab起動します。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/pysummarization.ipynb)
+：クリックでGoogle Colab起動します。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/pysummarization‗English‗string.ipynb)
+：クリックでGoogle Colab起動します。
