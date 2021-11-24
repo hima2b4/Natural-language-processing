@@ -1,12 +1,14 @@
 # Natural-language-processing
 
 ## nlplot+word_cloud+TF-IDF+word2vec
-Word Cloud、nlplot（頻出ワードグラフや共起ネットワーク等の可視化や分析）、TF-IDF計算を実行します。
+Word Cloud、nlplot（頻出ワードグラフや共起ネットワーク等の可視化や分析）、TF-IDF計算、word2vecによるワードのベクトル計算と可視化（PCAとt-SNE）を実行します。
+様々な角度でテキストの状況がみられるよう、いくつかのライブラリを組み合わせています。
+### 使用方法
 分析したい文書をテキストファイルに貼って読み込ませ、「ランタイム→すべてのセルを実行」するだけです。
-前処理（改行, 空白等の処理）→形態素分析→各種視覚化は自動で行います。
+前処理（改行, 空白等の処理）→ 形態素分析 → 各種視覚化は自動で行います。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/nlplot%2Bword_cloud%2BTF-IDF%2Bword2vec.ipynb)
-：クリックでGoogle Colab起動します。\
+：クリックでGoogle Colab起動します。
 
 ---
 ## word2vec
@@ -19,7 +21,7 @@ Word2Vecは、当時Googleに在籍していた研究者であるトマス・ミ
 類似語、加算、減算、加減算等、文字を書き換え、セルを実行してください。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/word2vec.ipynb)
-：クリックでGoogle Colab起動します。\
+：クリックでGoogle Colab起動します。
 
 ---
 ## fastText
@@ -32,7 +34,7 @@ fastTextは2016年にFacebookが公開した自然言語処理ライブラリ。
 類似語、加算、減算、加減算等、文字を書き換え、セルを実行してください。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/fastText.ipynb)
-：クリックでGoogle Colab起動します。\
+：クリックでGoogle Colab起動します。
 
 ---
 ## pysummerization
@@ -45,7 +47,7 @@ SF（SimilarityFilter｜類似性フィルター）：文章内にある文字�
 **[注意]** テキストファイルは文字コードを「UTF-8」としてください。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/pysummarization.ipynb)
-：クリックでGoogle Colab起動します。\
+：クリックでGoogle Colab起動します。
 
 ---
 ## pysummarization‗English‗string
@@ -56,7 +58,7 @@ pysummarizationは、自然言語処理とニューラルネットワーク言�
 「ランタイム→すべてのセルを実行」し、ライブラリが読み込まれた後、表示される[ファイル選択] ボタンをクリックし、要約したいテキストファイル（.txt）指定するだけです。
 要約後、result_summary.txt と result_summary.docx を生成します。（※docxファイルは DeepL翻訳サイトでドラックするだけで翻訳できます。）
 要約結果に「原文書」「要約文書」「要約文書:SF」が表示されます。
-SF（SimilarityFilter｜類似性フィルター）：文章内にある文字列に対し類似性の尺度を使って計算し冗長な文章を短くまとめる機能。カットオフ設定はスライドバーにて設定できます。※設定幅：0.05～0.5（Default=0.25, 0.05Step）\
+SF（SimilarityFilter｜類似性フィルター）：文章内にある文字列に対し類似性の尺度を使って計算し冗長な文章を短くまとめる機能。カットオフ設定はスライドバーにて設定できます。※設定幅：0.05～0.5（Default=0.25, 0.05Step）
 **[注意]** テキストファイルは文字コードを「UTF-8」としてください。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/pysummarization‗English‗string.ipynb)
