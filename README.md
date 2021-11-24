@@ -7,7 +7,7 @@ Word Cloud、nlplot（頻出ワードグラフや共起ネットワーク等の�
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/nlplot%2Bword_cloud%2BTF-IDF%2Bword2vec.ipynb)
 ：クリックでGoogle Colab起動します。
 
-## Word2vec
+## word2vec
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/word2vec.ipynb)
 ：クリックでGoogle Colab起動します。
 
