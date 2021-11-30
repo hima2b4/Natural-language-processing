@@ -4,11 +4,13 @@
 Word Cloud、nlplot（頻出ワードグラフや共起ネットワーク等の可視化や分析）、TF-IDF計算、word2vecによるワードのベクトル計算と可視化（PCAとt-SNE）を実行します。
 様々な角度でテキストの状況がみられるよう、いくつかのライブラリを組み合わせています。
 ### 使用方法
-分析したい文書をテキストファイルに貼って読み込ませ、「ランタイム→すべてのセルを実行」するだけです。
+分析したい文書を取込み、「ランタイム→すべてのセルを実行」するだけです。
 前処理（改行, 空白等の処理）→ 形態素分析 → 各種視覚化は自動で行います。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/nlplot%2Bword_cloud%2BTF-IDF%2Bword2vec_v2.ipynb)
-：クリックでGoogle Colab起動します。
+：txtデータ取込み版：クリックでGoogle Colab起動します。
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/nlplot%2Bword_cloud%2BTF-IDF%2Bword2vec_csv_data.ipynb)
+：csvデータ取込み版：クリックでGoogle Colab起動します。
 
 ---
 ## word2vec
