@@ -8,9 +8,9 @@ Word Cloud、nlplot（頻出ワードグラフや共起ネットワーク等の�
 前処理（改行, 空白等の処理）→ 形態素分析 → 各種視覚化は自動で行います。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/nlplot%2Bword_cloud%2BTF-IDF%2Bword2vec_v2.ipynb)
-：txtデータ取込み版：クリックでGoogle Colab起動します。
+：txtデータ取込版：クリックでGoogle Colab起動。
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/nlplot%2Bword_cloud%2BTF-IDF%2Bword2vec_csv_data.ipynb)
-：csvデータ取込み版：クリックでGoogle Colab起動します。
+：csvデータ取込版：クリックでGoogle Colab起動。
 
 ---
 ## word2vec
