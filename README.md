@@ -1,7 +1,7 @@
 # **Natural language analysis library**
-テキスト分析を行うためのライブラリです。**txtデータ版とcsvデータ版があります。**\
-自然言語分析は、まず文書を語彙に分解し、その後 語彙数や語彙の出現傾向を可視化するなどして文書全体の訴えや傾向を把握します。\
-このライブラリは、分析したい文書を保存した「ファイル」を読込むだけで、自動で前処理、以下の可視化を行うライブラリです。
+これは、テキスト分析を行うためのライブラリをいくつか集めたものです。**txtデータ版とcsvデータ版があります。**\
+自然言語分析は、まず文書を語彙に分解し、その後 語彙数や語彙の出現傾向を可視化するなどして文書全体の訴えや文書の傾向を把握します。\
+このライブラリは、分析したい文書を読込むだけで、自動で前処理、以下の可視化等を行います。
 
 - **nlplot**（自然言語可視化・分析ライブラリ）：ワードカウントグラフや共起ネットワーク等の可視化や分析を行います。文書の語彙の特徴や傾向を掴むことができます。
 - **Word Cloud**：出現頻度が高い語を複数選び出し、その頻度に応じた大きさで図示します。文書に含まれる語がどれだけ重要かを示すTF-IDFというベクトル計算を行った結果によるWord Cloudも図示します。
@@ -28,7 +28,7 @@
 - グループ分けの数（クラスター数）は任意に設定できます。
 - 満足度を数値化している場合、高い/低いランクを任意に設定できます。
 - Word Cloudは、🍩型に変更することができます。
-- **csvデータの表形式は以下としてください。**
+- **csv版の表形式は以下としてください。**
 - **カラム名は1列目を userID、2列目を comment（自由記述）、3列目を cs（満足度）としてください。3列目はなくても構いません。**
 
 |userID|comment|cs|
@@ -51,7 +51,7 @@ Word2Vecは、当時Googleに在籍していた研究者であるトマス・ミ
 以下は、学習済モデル→ 20170201.tar.bz2（解凍後のファイル名はentity_vector.model.bin） を利用し、類似語抽出、単語の加減算や複数単語の類似度、類似語の分布をグラフ表示させることができるようにしたもの。\
 学習モデルをダウンロードし、GoogleDriveに保存（初回のみ）\
 ランライム実行すると（最初のセルで）URLへのアクセスが要求されるのでアクセスしログイン。表示されるauthorization codeをコピーし、セルに表示される [ Enter your authorization code: ] の入力枠にコピペ⏎するだけです。
-学習済モデルの保存フォルダの初期設定は「/content/drive/My Drive/NLP」です。変更の場合は任意に設定してください。
+学習済モデルの保存フォルダの初期設定は「/content/drive/My Drive/NLP」です。変更する場合は任意にコード設定してください。
 類似語、加算、減算、加減算等、文字を書き換え、セルを実行してください。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/word2vec.ipynb)
@@ -64,7 +64,7 @@ fastTextは2016年にFacebookが公開した自然言語処理ライブラリ。
 以下は、この 学習済モデル：NEologd を利用し、類似語抽出、単語の加減算や複数単語の類似度、類似語の分布をグラフ表示させることができる。
 学習モデルをダウンロードし、GoogleDriveに保存（初回のみ）\
 実行すると（最初のセルで）URLへのアクセスが要求されるのでアクセスしログイン。表示されるauthorization codeをコピーし、セルに表示される [ Enter your authorization code: ] の入力枠にコピペ⏎するだけです。
-学習済モデルの保存フォルダの初期設定は「/content/drive/My Drive/NLP」です。変更の場合は任意に設定してください。
+学習済モデルの保存フォルダの初期設定は「/content/drive/My Drive/NLP」です。変更する場合は任意にコード設定してください。
 類似語、加算、減算、加減算等、文字を書き換え、セルを実行してください。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/fastText.ipynb)
