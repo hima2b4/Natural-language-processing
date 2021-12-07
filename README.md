@@ -55,7 +55,7 @@ Word2Vecは、当時Googleに在籍していた研究者であるトマス・ミ
 類似語、加算、減算、加減算等、文字を書き換え、セルを実行してください。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/word2vec.ipynb)
-：クリックでGoogle Colab起動します。
+：クリックでGoogle Colab起動。
 
 ---
 ## fastText
@@ -68,7 +68,7 @@ fastTextは2016年にFacebookが公開した自然言語処理ライブラリ。
 類似語、加算、減算、加減算等、文字を書き換え、セルを実行してください。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/fastText.ipynb)
-：クリックでGoogle Colab起動します。
+：クリックでGoogle Colab起動。
 
 ---
 ## pysummerization
@@ -81,7 +81,7 @@ SF（SimilarityFilter｜類似性フィルター）：文章内にある文字�
 **[注意]** テキストファイルは文字コードを「UTF-8」としてください。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/pysummarization.ipynb)
-：クリックでGoogle Colab起動します。
+：クリックでGoogle Colab起動。
 
 ---
 ## pysummarization‗English‗string
@@ -96,4 +96,4 @@ SF（SimilarityFilter｜類似性フィルター）：文章内にある文字�
 **[注意]** テキストファイルは文字コードを「UTF-8」としてください。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/pysummarization‗English‗string.ipynb)
-：クリックでGoogle Colab起動します。
+：クリックでGoogle Colab起動。
