@@ -39,9 +39,9 @@
 |U004  |既存品と取付位置が合わないことがつらいです。|1  |
 - [**注意**] k-means はアルゴリズム上、実行ごとに結果が変わることがあります。
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/Natural language analysis library for txt_v1.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/Natural_language_analysis_library_for_txt_v1.ipynb)
 ：txtデータ取込版：クリックでGoogle Colab起動。\
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/Natural language analysis library for csv_v1.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/Natural_language_analysis_library_for_csv_v1.ipynb)
 ：csvデータ取込版：クリックでGoogle Colab起動。
 
 ---
