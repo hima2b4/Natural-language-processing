@@ -1,16 +1,47 @@
-# Natural-language-processing
+# **Natural language analysis library**
+テキスト分析を行うためのライブラリです。\
+自然言語分析は、まず文書を語彙に分解し、その後 語彙数や語彙の出現傾向を可視化するなどして文書全体の訴えや傾向を把握します。\
+このライブラリは、分析したい文書を保存した「ファイル」を読込むだけで、自動で前処理、以下の可視化を行うライブラリです。
 
-## nlplot+word_cloud+TF-IDF+word2vec
-Word Cloud、nlplot（頻出ワードグラフや共起ネットワーク等の可視化や分析）、TF-IDF計算とワード傾向によるグルーピング、word2vecによるワードのベクトル計算と可視化（PCAとt-SNE）を実行します。
-様々な角度でテキストの状況がみられるよう、いくつかのライブラリを組み合わせています。
-### 使用方法
-分析したい文書を取込み、「ランタイム→すべてのセルを実行」するだけです。
-前処理（改行, 空白等の処理）→ 形態素分析 → 各種視覚化は自動で行います。
-Word Cloudで全体を眺めたり、文書全体の訴えの全体感に思いを巡らせ、その上で、語彙でグループ分け（クラスタ分け）した単位でセンテンスに触れるという流れを想定。word2vecはおまけ。
+- **nlplot**（自然言語可視化・分析ライブラリ）：ワードカウントグラフや共起ネットワーク等の可視化や分析を行います。文書の語彙の特徴や傾向を掴むことができます。
+- **Word Cloud**：出現頻度が高い語を複数選び出し、その頻度に応じた大きさで図示します。文書に含まれる語がどれだけ重要かを示すTF-IDFというベクトル計算を行った結果によるWord Cloudも図示します。
+- **センテンスのグループ分け①**：このライブラリは、テキストの語彙傾向でグループ分けを行います。[ベクトル計算：TF-IDF⇒クラスタリング：k-means]
+- **センテンスのグループ分け②**：Doc2Vecという文章をベクトル化する技術によるテキストのグループ分けを行います。[ベクトル計算：Doc2Vec⇒クラスタリング：k-means]
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/nlplot%2Bword_cloud%2BTF-IDF%2Bword2vec_v2.ipynb)
+***
+## **前準備**
+1. [**このサイト**](https://yag-ays.github.io)から「dbow300d：distributed bag of words (PV-DBOW)」（学習済モデル）をダウンロード。
+2. 解凍後、jawiki.doc2vec.dbow300d📂を/content/drive/My Drive/NLPに保存。
+- [**注意**] 学習済モデルは、Google DriveのMy Driveの下にNLPフォルダに保存する設定としています。NLPフォルダは作成してください。
+***
+## **実行手順**
+1. メニューバーの「ランタイム」から「すべてのセルを実行」をクリック。
+2. ライブラリインストール完了後、[ファイル選択]ボタンをクリックし、分析したい文書を指定する。
+- [**注意**] テキストファイルは文字コードを「UTF-8」としてください。
+3. Doc2Vecは、Google Driveに保存した学習済モデルをLoadします。初回実行時のみ表示されるURLをクリック⇒ログインし、表示されるコードをコピーし、セルに戻ってペーストする必要があります。
+- [**注意**] Doc2Vecは処理に数分かかります。**時にクラッシュする**ことがあります。このような場合は**ランタイムを再起動してやり直し**てください。
+***
+## **このライブラリの使い方について**
+- テキスト分析は文書量が多いと目を通すだけでも大変です。このライブラリで文書全体把握につながる語彙の特徴やセンテンスのグルーピングができますので、初手として活用することで効率化できます。
+- Word Cloudで文書全体の訴えをながめた上、ライブラリが行ったグループ分け毎に個々のテキストに目を通すとよいと思います。
+###**その他**
+- グループ分けの数（クラスター数）は任意に設定できます。
+- 満足度を数値化している場合、高い/低いランクを任意に設定できます。
+- Word Cloudは、🍩型に変更することができます。
+- **csvデータの表形式は以下としてください。**
+- **カラム名は1列目を userID、2列目を comment（自由記述）、3列目を cs（満足度）としてください。3列目はなくても構いません。**
+
+|userID|comment|cs|
+|---|---|---|
+|U001  |総合的には満足してますが、○○が細かく調整できたらもっと使いやすいと思います。|4  |
+|U002  |○○ボタンが押しにくいです。|2  |
+|U003  |特にありません。|3  |
+|U004  |既存品と取付位置が合わないことがつらいです。|1  |
+- [**注意**] k-means はアルゴリズム上、実行ごとに結果が変わることがあります。
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/Natural language analysis library for txt_v1.ipynb)
 ：txtデータ取込版：クリックでGoogle Colab起動。\
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/nlplot%2Bword_cloud%2BTF-IDF%2Bword2vec_csv_data.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/Natural language analysis library for csv_v1.ipynb)
 ：csvデータ取込版：クリックでGoogle Colab起動。
 
 ---
