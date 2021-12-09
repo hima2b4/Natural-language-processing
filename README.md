@@ -110,3 +110,16 @@ pdfminerは、PDFファイルからテキストを抽出するライブラリ。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/Natural-language-processing/blob/main/pdfminer.ipynb)
 ：クリックでGoogle Colab起動。
+
+
+---
+## EasyOCR
+EasyOCRは、画像からテキストを抽出するライブラリ。
+
+## 使用方法**
+1. メニューバーの「**ランタイム**」から「**すべてのセルを実行**」をクリック。
+2. ライブラリインストール完了後、**[ファイル選択]**ボタンをクリックし、テキスト抽出したい画像ファイルを指定する。
+3. OCR2TXT.txt（OCR結果を格納） 保存のダイヤログボックスが表示されるので、任意のローカルファイルに保存する。
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hima2b4/easyocr.ipynb)
+：クリックでGoogle Colab起動。
